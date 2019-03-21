@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
-f=open("a.txt","r")
+import os
+f = open("a.txt","r")
 
-print f.readline(3)
+for line in f:
+	line=line.rstrip()
+	os.system("/anaconda3/envs/py3/bin/gplaycli -d " + line + " -f test")
+
