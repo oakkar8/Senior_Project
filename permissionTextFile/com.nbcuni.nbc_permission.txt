@@ -1,0 +1,22 @@
+package: com.nbcuni.nbc
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.ACCESS_LOCATION'
+uses-permission: name='android.permission.ACCESS_GPS'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.GET_TASKS' maxSdkVersion='20'
+permission: android.permission.MEDIA_CONTENT_CONTROL
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+uses-permission: name='android.permission.GET_ACCOUNTS'
+permission: com.nbcuni.nbc.permission.C2D_MESSAGE
+uses-permission: name='com.nbcuni.nbc.permission.C2D_MESSAGE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+permission: com.nbcuni.nbc.permission.RECEIVE_ADM_MESSAGE
+uses-permission: name='com.nbcuni.nbc.permission.RECEIVE_ADM_MESSAGE'
+uses-permission: name='com.amazon.device.messaging.permission.RECEIVE'
+uses-permission: name='com.google.android.providers.gsf.permission.READ_GSERVICES'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+uses-permission: name='com.android.alarm.permission.SET_ALARM'

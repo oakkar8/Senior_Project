@@ -1,0 +1,6 @@
+package: com.robtopx.geometryjumplite
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.READ_PHONE_STATE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE' maxSdkVersion='18'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'

@@ -1,0 +1,9 @@
+package: com.hello.CakeCookingShop
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+permission: com.hello.CakeCookingShop.permission.C2D_MESSAGE
+uses-permission: name='com.hello.CakeCookingShop.permission.C2D_MESSAGE'

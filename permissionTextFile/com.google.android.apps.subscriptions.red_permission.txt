@@ -1,0 +1,12 @@
+package: com.google.android.apps.subscriptions.red
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.GET_ACCOUNTS' maxSdkVersion='22'
+uses-permission: name='android.permission.MANAGE_ACCOUNTS'
+uses-permission: name='android.permission.USE_CREDENTIALS' maxSdkVersion='22'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='com.google.android.providers.gsf.permission.READ_GSERVICES'
+uses-permission: name='android.permission.GET_PACKAGE_SIZE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'

@@ -1,0 +1,13 @@
+package: com.mobilewaronline.wwr
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY'
+uses-permission: name='android.permission.USE_BIOMETRIC'
+uses-permission: name='android.permission.USE_FINGERPRINT'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'

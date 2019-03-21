@@ -1,0 +1,28 @@
+package: com.yahoo.mobile.client.android.mail
+uses-permission: name='android.permission.AUTHENTICATE_ACCOUNTS' maxSdkVersion='22'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.READ_SYNC_SETTINGS'
+uses-permission: name='android.permission.WRITE_SYNC_SETTINGS'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.WRITE_CONTACTS'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.WAKE_LOCK'
+permission: com.yahoo.mobile.android.permission.GEOFENCE_EXPOSE
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.GET_ACCOUNTS'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-permission: name='com.yahoo.mobile.client.android.permissions.YAHOO_INTER_APP'
+uses-permission: name='android.permission.READ_CONTACTS'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.READ_SYNC_STATS'
+permission: com.yahoo.mobile.client.android.permissions.YAHOO_INTER_APP
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.USE_CREDENTIALS' maxSdkVersion='22'
+uses-permission: name='android.permission.MANAGE_ACCOUNTS' maxSdkVersion='22'
+permission: com.yahoo.mobile.client.android.mail.permission.RECEIVE_ADM_MESSAGE
+uses-permission: name='com.yahoo.mobile.client.android.mail.permission.RECEIVE_ADM_MESSAGE'
+uses-permission: name='com.amazon.device.messaging.permission.RECEIVE'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'

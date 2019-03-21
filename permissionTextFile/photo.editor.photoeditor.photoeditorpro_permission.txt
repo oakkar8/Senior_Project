@@ -1,0 +1,14 @@
+package: photo.editor.photoeditor.photoeditorpro
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='com.google.android.gallery3d.permission.GALLERY_PROVIDER'
+uses-permission: name='com.google.android.apps.photos.permission.GOOGLE_PHOTOS'
+uses-permission: name='com.google.android.providers.gsf.permission.READ_GSERVICES'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+permission: photo.editor.photoeditor.photoeditorpro.permission.C2D_MESSAGE
+uses-permission: name='photo.editor.photoeditor.photoeditorpro.permission.C2D_MESSAGE'

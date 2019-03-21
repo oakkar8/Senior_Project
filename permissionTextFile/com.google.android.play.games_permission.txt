@@ -1,0 +1,15 @@
+package: com.google.android.play.games
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.USE_CREDENTIALS' maxSdkVersion='22'
+uses-permission: name='android.permission.REQUEST_DELETE_PACKAGES'
+permission: com.google.android.gms.game.notifications.permission.READ
+permission: com.google.android.gms.game.notifications.permission.WRITE
+uses-permission: name='com.google.android.gms.game.notifications.permission.READ'
+uses-permission: name='android.permission.GET_ACCOUNTS'
+uses-permission: name='com.google.android.providers.gsf.permission.READ_GSERVICES'
+uses-permission: name='com.google.android.providers.gsf.permission.WRITE_GSERVICES'
+uses-permission: name='com.google.android.gms.permission.INTERNAL_BROADCAST'
+permission: com.google.android.gms.permission.GAMES_DEBUG_SETTINGS
+uses-permission: name='com.google.android.gms.permission.GAMES_DEBUG_SETTINGS'
+uses-permission: name='android.permission.VIBRATE'

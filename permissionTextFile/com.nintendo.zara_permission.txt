@@ -1,0 +1,11 @@
+package: com.nintendo.zara
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE' maxSdkVersion='22'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+permission: com.nintendo.zara.permission.C2D_MESSAGE
+uses-permission: name='com.nintendo.zara.permission.C2D_MESSAGE'

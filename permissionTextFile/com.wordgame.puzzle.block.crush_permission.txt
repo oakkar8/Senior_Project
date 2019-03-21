@@ -1,0 +1,13 @@
+package: com.wordgame.puzzle.block.crush
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.READ_PHONE_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+permission: com.wordgame.puzzle.block.crush.permission.C2D_MESSAGE
+uses-permission: name='com.wordgame.puzzle.block.crush.permission.C2D_MESSAGE'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'

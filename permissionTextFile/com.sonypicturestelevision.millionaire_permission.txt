@@ -1,0 +1,11 @@
+package: com.sonypicturestelevision.millionaire
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+permission: com.sonypicturestelevision.millionaire.permission.C2D_MESSAGE
+uses-permission: name='com.sonypicturestelevision.millionaire.permission.C2D_MESSAGE'

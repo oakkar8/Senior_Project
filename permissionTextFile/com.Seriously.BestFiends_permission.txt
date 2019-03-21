@@ -1,0 +1,7 @@
+package: com.Seriously.BestFiends
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'

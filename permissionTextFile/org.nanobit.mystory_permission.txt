@@ -1,0 +1,12 @@
+package: org.nanobit.mystory
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.WRITE_INTERNAL_STORAGE'
+uses-permission: name='android.permission.READ_INTERNAL_STORAGE'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+uses-permission: name='com.android.vending.CHECK_LICENSE'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'

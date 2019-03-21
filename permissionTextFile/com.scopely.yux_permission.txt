@@ -1,0 +1,15 @@
+package: com.scopely.yux
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.USE_CREDENTIALS'
+uses-permission: name='android.permission.NETWORK'
+uses-permission: name='android.permission.GET_ACCOUNTS'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='com.android.vending.BILLING'
+permission: com.scopely.yux.permission.C2D_MESSAGE
+uses-permission: name='com.scopely.yux.permission.C2D_MESSAGE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'

@@ -1,0 +1,2 @@
+package: com.google.android.apps.googleassistant
+uses-permission: name='com.google.android.providers.gsf.permission.READ_GSERVICES'

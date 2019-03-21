@@ -1,0 +1,16 @@
+package: com.gameloft.android.ANMP.GloftDMHM
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+permission: com.gameloft.android.ANMP.GloftDMHM.permission.C2D_MESSAGE
+uses-permission: name='com.gameloft.android.ANMP.GloftDMHM.permission.C2D_MESSAGE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+permission: glshare.permission.ACCESS_SHARED_DATA
+uses-permission: name='glshare.permission.ACCESS_SHARED_DATA'

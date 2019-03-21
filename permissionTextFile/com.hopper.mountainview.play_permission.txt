@@ -1,0 +1,11 @@
+package: com.hopper.mountainview.play
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.SYSTEM_ALERT_WINDOW'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+permission: com.hopper.mountainview.play.permission.C2D_MESSAGE
+uses-permission: name='com.hopper.mountainview.play.permission.C2D_MESSAGE'
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.VIBRATE'

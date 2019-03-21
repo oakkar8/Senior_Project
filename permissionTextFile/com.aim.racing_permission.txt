@@ -1,0 +1,7 @@
+package: com.aim.racing
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='com.android.vending.BILLING'
+uses-permission: name='android.permission.WAKE_LOCK'

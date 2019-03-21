@@ -1,0 +1,17 @@
+package: com.scee.psxandroid
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='com.sony.snei.np.android.account.provider.permission.DUID_READ_PROVIDER'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+permission: com.scee.psxandroid.PERMISSION_INTERNAL
+permission: com.scee.psxandroid.permission.WRITE_SIGNINUSER
+permission: com.scee.psxandroid.permission.READ_SIGNINUSER
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.VIBRATE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+uses-permission: name='com.google.android.c2dm.permission.RECEIVE'
+permission: com.scee.psxandroid.permission.C2D_MESSAGE
+uses-permission: name='com.scee.psxandroid.permission.C2D_MESSAGE'
