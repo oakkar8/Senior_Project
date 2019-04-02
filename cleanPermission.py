@@ -12,6 +12,7 @@ for name in files:
 				y=x.replace("uses-permission: name='","")
 				z=y.replace("'","")
 				a=z.replace("uses-permission-sdk-23: name=","")
+				b=a.replace("permission: ","")
 				open(name,'w').close()
 			#	wr.write(z)
-				f.write(a)
+				f.write(b)
