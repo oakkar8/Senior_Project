@@ -22,14 +22,27 @@ for name in files:
         if("package" in line):
             continue
         else:
-            permission_list.add(line)
-count=0
+            if(len(line)!=0):
+                permission_list.add(line)
 permission_list=list(permission_list)
+<<<<<<< HEAD
 for i in permission_list:
    # print(i)
     if(len(i)==0):
         count=count+1
 	print "count"
+=======
+print len(permission_list)
+permission_list=filter(None,permission_list)
+print len(permission_list)
+print permission_list[0]
+with open('text.txt','w') as txtfile:
+    for item in permission_list:
+        txtfile.write(item)
+        txtfile.write('\n')
+>>>>>>> b63855aca7f27e4d0045e01e250be1afb1a9e694
 with open('permissionList.csv','w') as csvfile:
     wr = csv.writer(csvfile, dialect='excel')
     wr.writerow(permission_list)
+
+print permission_list
