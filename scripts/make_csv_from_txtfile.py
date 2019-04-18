@@ -3,26 +3,28 @@ import re
 import os
 import csv
 path='../permissionTextFile/'
+malware_path='../malware_permissions/'
 collected_file_path='../final_data/permissionList.txt'
-save_file_name='../final_data/permission_total'
-collected_file=open(collected_file_path,'r')
+collected_file_path2='../final_data/permission_total.txt'
+save_file_name='../final_data/permission_total_with_maleware'
+collected_file=open(collected_file_path2,'r')
 
 permission_set=set()
 for line in collected_file:
     line=line.rstrip()
     permission_set.add(line)
 
-filenames=os.listdir(path)
+filenames=os.listdir(malware_path)
 for name in filenames:
     name=name.rstrip()
-    name=path+name
+    name=malware_path+name
     f=open(name,'r')
+    print(name)
     for line in f:
         line=line.rstrip()
         if (line.startswith("package")):
             continue
         else:
-           # if(len(re.findall('[0-9]',line))>0):
             line=line.replace('\'',' ')
             temp=line
             line= line.split()[-1]
@@ -33,7 +35,7 @@ for name in filenames:
 def save_into_csv_file():
     cw=csv.writer(open(save_file_name+'.csv','w'))
     permission_list=list(permission_set)
-    permission_list=["app/title"]+permission_list
+    permission_list=["app/title"]+["isBenign"]+permission_list
     print(len(permission_list))
     cw.writerow(permission_list)
 
@@ -42,6 +44,6 @@ def save_into_txt_file():
         for item in permission_set:
             txtfile.write(item)
             txtfile.write('\n')
-
-save_into_txt_file()
+print("everything Work fine")
+#save_into_txt_file()
 save_into_csv_file()
